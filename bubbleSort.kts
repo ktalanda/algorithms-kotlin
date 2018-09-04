@@ -1,6 +1,9 @@
+#!/usr/bin/env kscript
+
 val input = listOf(1, 5, 2, 23, 0, 0, 5, 12)
 println("input - $input")
 val output = input.bubbleSort()
+
 println("output - $output")
 println("isSorted - ${output.isSorted()}")
 
